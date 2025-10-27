@@ -1,25 +1,25 @@
-# STRMæ–‡ä»¶ç®¡ç†æŽ§åˆ¶å° - Dockerç‰ˆæœ¬
+# STRMÎÄ¼þ¹ÜÀí¿ØÖÆÌ¨ - Docker°æ±¾
 
-ä¸€ä¸ªç”¨äºŽç®¡ç†STRMæ–‡ä»¶çš„WebæŽ§åˆ¶å°ï¼Œæ”¯æŒå…¨é‡æ›´æ–°ã€å¢žé‡æ›´æ–°ã€åˆ®å‰Šæ•°æ®å¤åˆ¶ç­‰åŠŸèƒ½ã€‚
+Ò»¸öÓÃÓÚ¹ÜÀíSTRMÎÄ¼þµÄWeb¿ØÖÆÌ¨£¬Ö§³ÖÈ«Á¿¸üÐÂ¡¢ÔöÁ¿¸üÐÂ¡¢¹ÎÏ÷Êý¾Ý¸´ÖÆµÈ¹¦ÄÜ¡£
 
-## åŠŸèƒ½ç‰¹ç‚¹
+## ¹¦ÄÜÌØµã
 
-- ðŸŽ¯ Webå›¾å½¢åŒ–ç•Œé¢
-- ðŸ”„ å…¨é‡/å¢žé‡STRMæ–‡ä»¶ç”Ÿæˆ
-- ðŸ“ åˆ®å‰Šæ•°æ®è‡ªåŠ¨å¤åˆ¶
-- ðŸ³ Dockerå®¹å™¨åŒ–éƒ¨ç½²
-- ðŸ”’ ç”¨æˆ·è®¤è¯ç³»ç»Ÿ
+- ?? WebÍ¼ÐÎ»¯½çÃæ
+- ?? È«Á¿/ÔöÁ¿STRMÎÄ¼þÉú³É
+- ?? ¹ÎÏ÷Êý¾Ý×Ô¶¯¸´ÖÆ
+- ?? DockerÈÝÆ÷»¯²¿Êð
+- ?? ÓÃ»§ÈÏÖ¤ÏµÍ³
 
-## å¿«é€Ÿéƒ¨ç½²
+## ¿ìËÙ²¿Êð
 
-### å‰ææ¡ä»¶
+### Ç°ÌáÌõ¼þ
 
 - Docker & Docker Compose
-- CloudDrive2æŒ‚è½½çš„115ç½‘ç›˜
+- CloudDrive2¹ÒÔØµÄ115ÍøÅÌ
 
-### éƒ¨ç½²æ­¥éª¤
+### ²¿Êð²½Öè
 
-1. **å…‹éš†ä»“åº“**
+1. **¿ËÂ¡²Ö¿â**
    ```bash
    git clone https://github.com/yourusername/strm-console-docker.git
    cd strm-console-docker
