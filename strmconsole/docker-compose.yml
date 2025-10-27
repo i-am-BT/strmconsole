@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  strm-console:
+    build: .
+    container_name: strm-console
+    ports:
+      - "8090:80"  # 主机端口:容器端口
+    volumes:
+      # STRM文件目录
+      - ./strm_files:/var/strm_files
+      # CloudDrive挂载点 (根据实际挂载路径修改)
+      - /docker/clouddrive/shared/CloudDrive:/docker/clouddrive/shared/CloudDrive:ro
+      # 日志目录
+      - ./logs:/var/log/strm_console
+      # 任务文件
+      - ./tasks:/var/www/html/tasks
+      # 脚本目录
+      - ./scripts:/var/www/html/scripts
+    environment:
+      - STRM_CONSOLE_USERNAME=admin
+      - STRM_CONSOLE_PASSWORD=password123
+      - STRM_CONSOLE_PORT=80
+      - TZ=Asia/Shanghai
+    restart: unless-stopped
+    privileged: true
